@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>权利要求撰写课｜专利自学站</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<style>
+  .rule-box{padding:14px 18px;border-left:4px solid var(--blue);background:#f8fafc;border-radius:0 10px 10px 0;margin:14px 0}
+  .badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;background:#e0f2fe;color:var(--blue);margin-right:6px}
+  .example{background:#f0fdf4;border:1px dashed #86efac;padding:12px;border-radius:8px;margin:10px 0;font-size:14px}
+  .wrong{background:#fef2f2;border-color:#fca5a5;color:#991b1b}
+  .right{background:#f0fdf4;border-color:#86efac;color:#166534}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="../index.html">⚖️ 专利自学站</a>
+    <nav class="nav">
+      <a href="../exam/index.html">模拟卷</a>
+      <a data-nav="/practical/" href="#">实务</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container prose">
+
+<h2>✍️ 权利要求撰写课（实务核心）</h2>
+<p style="color:var(--muted);font-size:13px;">本页内容完全对标《专利审查指南》（局令78号/84号）及2024–2026实务口径。</p>
+
+<div class="rule-box">
+  <strong>📌 核心原则（考试+实务通用）</strong><br/>
+  权利要求=用文字圈一块<u>排他性领地</u>，边界必须：<br/>
+  ① 得到说明书支持（§26.4）<br/>
+  ② 清楚、简要（§26.4）<br/>
+  ③ 包含解决技术问题的必要技术特征（§26.4）
+</div>
+
+<h3>一、独立权利要求（独权）：圈地</h3>
+<ul>
+  <li><span class="badge">结构</span>前序部分 + 特征部分（“其特征在于”）</li>
+  <li><span class="badge">作用</span>划定最大保护范围，少写一个必要特征=直接缩小保护</li>
+  <li><span class="badge">坑点</span>不要把“优选/最佳/例如”写进独权（不清+不支持）</li>
+</ul>
+
+<div class="example right">
+  ✅ <strong>正确示例（机械）</strong><br/>
+  1. 一种折叠伞，其特征在于，包括：<br/>
+  &nbsp;&nbsp;伞骨（10），呈放射状布置；<br/>
+  &nbsp;&nbsp;伞面（20），固定于所述伞骨；<br/>
+  &nbsp;&nbsp;锁定机构（30），用于将伞骨锁定在展开状态。
+</div>
+
+<div class="example wrong">
+  ❌ <strong>错误示例</strong><br/>
+  1. 一种折叠伞，其特征在于，伞骨优选为碳纤维材质，伞面最好用防水布。<br/>
+  → “优选”“最好”=不清楚 + 不必要限定
+</div>
+
+<h3>二、从属权利要求（从权）：加围栏</h3>
+<ul>
+  <li><span class="badge">功能</span>对独权进一步限定，形成多层防御</li>
+  <li><span class="badge">引用规则</span>可引用独权或编号在前的权利要求</li>
+  <li><span class="badge">禁止</span>引用基础缺失（如权利要求4引用权利要求6）</li>
+</ul>
+
+<div class="example right">
+  ✅ <strong>正确示例</strong><br/>
+  2. 根据权利要求1所述的折叠伞，其特征在于，所述锁定机构（30）包括弹簧销。<br/>
+  3. 根据权利要求2所述的折叠伞，其特征在于，所述伞骨（10）数量为8根。
+</div>
+
+<h3>三、支持（§26.4）：不能空中楼阁</h3>
+<div class="rule-box">
+  <strong>审查员视角：</strong><br/>
+  权利要求中的每个技术特征，必须在说明书里有“落脚点”——<br/>
+  要么是明确记载，要么是从记载内容能直接、毫无疑义确定的。
+</div>
+
+<table style="width:100%;border-collapse:collapse;margin:14px 0;font-size:14px">
+  <tr style="background:var(--card)">
+    <th style="border:1px solid var(--border);padding:8px">情形</th>
+    <th style="border:1px solid var(--border);padding:8px">结论</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid var(--border);padding:8px">独权写“浓度10%–90%”，说明书只给50%一例</td>
+    <td style="border:1px solid var(--border);padding:8px">✅ 可支持（能合理预测）</td>
+  </tr>
+  <tr>
+    <td style="border:1px solid var(--border);padding:8px">独权写“材料为金属”，说明书只提塑料</td>
+    <td style="border:1px solid var(--border);padding:8px">❌ 不支持（完全无对应）</td>
+  </tr>
+</table>
+
+<h3>四、清楚性（§26.4）：边界不能模糊</h3>
+<ul>
+  <li>❌ 禁用：“高温”“薄壁”“足够长”“约100°C”</li>
+  <li>✅ 改用：“温度为120–150°C”“壁厚为0.5–1mm”</li>
+  <li>❌ 禁用：“包括A、B等” → 开放式写法需谨慎</li>
+</ul>
+
+<h3>五、2024–2026新规特别提醒</h3>
+<div class="rule-box">
+  <strong>① 诚实信用原则</strong>：虚构技术效果、编造实施例 → 可能被认定为非正常申请<br/>
+  <strong>② 发明人身份真实</strong>：代理机构有义务核实真实贡献者，不能随便填<br/>
+  <strong>③ 同日双申</strong>：新型授权后，发明必须声明放弃新型才可授权
+</div>
+
+</div>
+
+<footer class="site-footer">
+  建议配合《专利审查指南》第二部分第二章阅读 · 实务撰写训练必备
+</footer>
+<script src="../js/common.js"></script>
+</body>
+</html>
